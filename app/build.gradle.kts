@@ -3,13 +3,13 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.kotlin.serialization)
-    id("io.github.loshine.json.compilergradleplugin") version ("0.0.1-SNAPSHOT")
+    id("io.github.loshine.json.adapter") version ("0.0.1-SNAPSHOT")
 }
 
-jsonAdapter {
-    enabled = true
-    packages = "io.github.loshine"
-}
+//jsonAdapter {
+//    enabled = true
+//    packages = "io.github.loshine"
+//}
 
 android {
     namespace = "io.github.loshine.constructor"
